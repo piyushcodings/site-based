@@ -172,7 +172,7 @@ $id = trim(strip_tags(getStr($result1,'"id": "','"')));
 ////////////////////////////===[2 Req]
 
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, 'https://scalemyhustle.com/membership-account/membership-checkout/');
+curl_setopt($ch, CURLOPT_URL, 'give rdp take api');
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_HEADER, 0);
 curl_setopt($ch, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
@@ -183,7 +183,7 @@ curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
 curl_setopt($ch, CURLOPT_COOKIEFILE, getcwd().'/cookie.txt');
 curl_setopt($ch, CURLOPT_COOKIEJAR, getcwd().'/cookie.txt');
 curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-'authority: scalemyhustle.com',
+'authority: giverdp',
 'method: POST',
 'path: /membership-account/membership-checkout/',
 'scheme: https',
